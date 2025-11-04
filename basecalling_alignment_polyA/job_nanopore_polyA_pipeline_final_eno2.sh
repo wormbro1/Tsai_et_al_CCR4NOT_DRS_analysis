@@ -7,7 +7,7 @@
 #BSUB -e logs/z_std_%J.err
 
 source /beevol/home/ouyangjo/.bashrc
-source activate test
+source activate DRS_env
 module load samtools
 
 ##inputing the dorado output bam file path and gtf path (and python script):
